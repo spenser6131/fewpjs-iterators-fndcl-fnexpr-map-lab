@@ -19,13 +19,6 @@ const titleCased = () => {
       capitalSentence.push(word[0].toUpperCase() + word.substr(1))
     }
     titleCasedTutorials.push(capitalSentence.join(" "))
-  })
+  });
   return titleCasedTutorials;
 }
-
-
-// each element of tutorials
-// e
-
-// each word of e
-// capitalize word[0]
